@@ -66,8 +66,9 @@
   border-radius: 100%;
   display: inline-block;
   position: absolute;
-  right: 28.3%;
-  top: 101%;
+  right: 0;
+  margin-top: -17%;
+  margin-right: 28.4%;
 }
 .first-heading {
   margin-top: 5%;
@@ -82,8 +83,34 @@
   display: inline-block;
   position: absolute;
   right: 0px;
-  margin-top: 5%;
+  margin-top: -12%;
+  margin-right: 27.5%;
+  font-family: "Open Sans";
+  color: #1A62A7;
 }
 .article-body {
   margin-top: -4%;
+}
+.col-2 {
+
+}
+.list-of-social-media {
+  font-family: "Open Sans";
+  color: #9CAAB7;
+  display: inline;
+  position:absolute;
+  right: 0;
+  margin-right: 23%;
+  margin-top: -10.7%;
+}
+.social-media {
+  display: inline-block;
+}
+.travis-action {
+  width: 193px;
+  height: 206px;
+  position: absolute;
+  right: 0;
+  margin-top: -6.7%;
+  margin-right: 23.3%;
 }
