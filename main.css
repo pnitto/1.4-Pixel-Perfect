@@ -114,3 +114,31 @@
   margin-top: -6.7%;
   margin-right: 23.3%;
 }
+.small-header {
+  font-family: "Open Sans";
+  font-size: 22px;
+}
+.small-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 10px;
+  width: .1rem;
+  background-color:  #CACACA;
+  height: 14%;
+  margin-left: 9rem;
+  margin-top: 54rem;
+}
+.line-small-header {
+  margin-left:3%;
+}
+.second-article {
+  width: 75%;
+}
+.second-p-second-article {
+  width: 75%;
+}
+.button {
+  font-family: "Open Sans";
+}
