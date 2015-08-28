@@ -1,0 +1,89 @@
+
+
+.waves {
+  height: 425px;
+  width: 94%;
+  margin: auto;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.left-header {
+  float: left;
+  position: absolute;
+  top: 0;
+}
+.wave-logo {
+  margin-top: 10px;
+  margin-left: 92px;
+}
+.surf-paddle-top {
+  display: inline-block;
+  font-family:"Open Sans";
+  position: relative;
+  top: -15px;
+}
+.about-search {
+  display: inline-block;
+  font-family:"Open Sans";
+  position: relative;
+  left: 594px;
+  top: -15px;
+  right: -110px;
+
+}
+.search-icon {
+  position: relative;
+  top: 5px;
+}
+.main-heading {
+  position: absolute;
+  left: 4em;
+  top: 2em;
+  font-size: 5rem;
+  font-family: "Open Sans";
+  color: white;
+}
+.under-main-h {
+  font-family: "Open Sans";
+  position: absolute;
+  top: 18rem;
+  left: 35rem;
+  font-size: .9em;
+}
+.first-article {
+  width: 60%;
+  margin-left: 9.5%;
+}
+.travis-rice-img {
+  height: 16px;
+  width: 16px;
+  border-radius: 100%;
+}
+.travis-rice-right {
+  height: 64px;
+  width: 64px;
+  border-radius: 100%;
+  display: inline-block;
+  position: absolute;
+  right: 28.3%;
+  top: 101%;
+}
+.first-heading {
+  margin-top: 5%;
+  font-family: "Oswald";
+  font-size: 42px;
+  width: 70%;
+}
+.firt-article {
+  width: 75%;
+}
+.travis-rice-name {
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+  margin-top: 5%;
+}
+.article-body {
+  margin-top: -4%;
+}
