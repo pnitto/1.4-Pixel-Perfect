@@ -1,11 +1,12 @@
 
-
+body {
+  max-width: 1300px;
+}
 .waves {
   height: 425px;
-  width: 94%;
-  margin: auto;
-  margin-left: 3%;
-  margin-right: 3%;
+  width: 110%;
+  margin-left: -3%;
+  margin-top:-1%;
 }
 
 .left-header {
@@ -92,6 +93,7 @@
   margin-top: -4%;
 }
 .col-2 {
+  margin-top: -36%;
 
 }
 .list-of-social-media {
@@ -128,7 +130,7 @@
   background-color:  #CACACA;
   height: 14%;
   margin-left: 9rem;
-  margin-top: 54rem;
+  margin-top: 57%;
 }
 .line-small-header {
   margin-left:3%;
@@ -139,6 +141,138 @@
 .second-p-second-article {
   width: 75%;
 }
+.buttons {
+  display: inline;
+  margin-left: -6.6%;
+}
 .button {
   font-family: "Open Sans";
+  display: inline-block;
+}
+.button-fixes {
+  height: 28px;
+  width: 129px;
+  text-align: right;
+  background-color:#A6B3BE;
+  color: white;
+  border: none;
+  margin-left: 1rem;
+}
+#comment-icon {
+  background-color:#60686F;
+  height: 25px;
+  width: 28px;
+  color:white;
+  text-align: center;
+  margin-top: 1%;
+  position: absolute;
+  top: 317%;
+  left: 10%;
+  font-size: 1rem;
+  padding-top: .2%;
+}
+#read-icon {
+  background-color:#60686F;
+  height: 25px;
+  width: 28px;
+  color:white;
+  text-align: center;
+  margin-top: 1%;
+  position: absolute;
+  top: 317%;
+  left: 21.6rem;
+  font-size: 1rem;
+  padding-top: .2%
+}
+#share-icon {
+  background-color:#60686F;
+  height: 25px;
+  width: 28px;
+  color:white;
+  text-align: center;
+  margin-top: 1%;
+  position: absolute;
+  top: 317%;
+  left: 31rem;
+  font-size: 1rem;
+  padding-top: .2%;
+}
+.about-this-ad {
+  position: absolute;
+  right: 23.3%;
+  top: 220%;
+}
+.article-right {
+  width: 20%;
+  position: absolute;
+  right: 16.5%;
+  top: 230%;
+}
+.col-2::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 115%;
+  background-color:  #CACACA;
+  height: 1%;
+  margin-top: 95%;
+}
+.pictures {
+  height: 330px;
+  width: 325px;
+}
+.bottom-list-pics {
+  display: inline;
+  list-style-type: none;
+}
+.pics {
+  margin-right: -4px;
+  display: inline-block;
+}
+.bottom-third {
+  margin-top: 50%;
+  max-width: 1300px;
+}
+.bottom-heading {
+  text-align: center;
+  color:#0D3453;
+  font-family: "Oswald";
+  font-size: 3rem;
+}
+.footer {
+  background-color:#0D3352;
+  width: 120%;
+  margin-left: -1%;
+  height: 97px;
+  margin-top: -.28%;
+  max-width: 1302px;
+}
+.left-bottom-bar {
+  list-style-type: none;
+  display: inline;
+  color: white;
+}
+.items-bottom-left {
+  display: inline-block;
+}
+.iron-yard-cr {
+  position: absolute;
+  margin-top:-2.6%;
+}
+.right-bottom-bar {
+  display: inline;
+  float: right;
+  margin-top:1.5%;
+  color: white;
+}
+.items-bottom-right {
+  display: inline-block;
+}
+.pic-ul {
+  margin-left: -4%;
+}
+.whole-page {
+  max-width: 100%;
 }
