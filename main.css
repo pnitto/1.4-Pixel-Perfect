@@ -428,6 +428,9 @@ body::after {
 .bottom-list-pics:hover::after {
   opacity: 0;
 }
+.mnt-walkers:hover {
+  opacity: 0;
+}
 .pics {
   margin-right: -4px;
   display: inline-block;
@@ -473,6 +476,7 @@ body::after {
 .pic-ul:hover::after {
   opacity: 0;
 }
+
 .bottom-bar::before {
   content: "";
   width: 325px;
