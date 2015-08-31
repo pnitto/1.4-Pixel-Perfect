@@ -15,7 +15,7 @@ header {
 .top-header::after {
   content: "";
   width: 127%;
-  height: 425px;
+  height: 420px;
   display: block;
   position: absolute;
   top: 0;
@@ -24,11 +24,13 @@ header {
   right: 0;
   background-color: #2474BB;;
   z-index: 0;
-  opacity: .7;
+  opacity: .9;
 }
-.top-header{
-  height: 425px;
 
+.top-header:hover::after{
+  height: 420px;
+  opacity:0;
+  transition: 500ms ease-in-out;
 }
 .left-header {
   float: left;
@@ -75,7 +77,7 @@ header {
 }
 .main-heading {
   position: absolute;
-  top: 5%;
+  top: 4%;
   left:14%;
   text-align: center;
   font-size: 6.3rem;
@@ -89,9 +91,10 @@ header {
 .under-main-h {
   font-family: "Open Sans";
   position: absolute;
-  top: 40.4%;
-  left: 37.1%;
+  top: 36.5%;
+  left: 37.4%;
   font-size: .9em;
+  word-spacing:2px;
 }
 .first-article {
   width: 60%;
@@ -200,6 +203,15 @@ header {
   margin-left: 73%;
   border-radius: 100%;
     }
+  .col-2:hover::after {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    display: inline-block;
+    margin-top: 1.4%;
+    margin-left: -.7%;
+    opacity: 0;
+  }
 .list-of-social-media {
   font-family: "Open Sans";
   color: #9CAAB7;
@@ -235,6 +247,10 @@ header {
   margin-right:-15%;
   right: 0;
 }
+.list-of-social-media:hover::after {
+  opacity: 0;
+  transition:  500ms linear;
+}
 .small-header {
   font-family: "Open Sans";
   font-size: 26px;
@@ -269,11 +285,12 @@ body::after {
   left: 0;
   top: 0;
   background-color:#EFF2F4;
-  margin-top:106%;
+  margin-top:109.75%;
 }
 .second-article {
   width: 80%;
   font-family: "Open Sans";
+  margin-left: -1%;
 }
 .second-p-second-article {
   width: 75%;
@@ -390,6 +407,7 @@ body::after {
 .pictures {
   height: 330px;
   width: 325px;
+  margin-left: -4%;
 }
 .bottom-list-pics {
   display: inline;
@@ -404,34 +422,41 @@ body::after {
   background-color: #2474BB;
   z-index: 1;
   opacity: .7;
-  margin-left: 51.5%;
-  margin-top: -24.9%;
+  margin-left: 52%;
+  margin-top: -25.7%;
+}
+.bottom-list-pics:hover::after {
+  opacity: 0;
 }
 .pics {
   margin-right: -4px;
   display: inline-block;
 }
 .bottom-third {
-  margin-top: 43.3%;
+  margin-top: 49.3%;
   max-width: 1300px;
+  margin-left: -4%;
 }
 .bottom-heading {
   text-align: center;
   color:#0D3453;
   font-family: "Oswald";
-  font-size: 3rem;
+  font-size: 4rem;
 }
 .bottom-heading::after {
   content: "";
-  width: 325px;
-  height: 325px;
+  width: 336px;
+  height: 331px;
   display: block;
   position: absolute;
   background-color: #2474BB;;
   z-index: 1;
   opacity: .7;
   margin-left: -.8%;
-  margin-top: 2.75%
+  margin-top: 2.3%
+}
+.bottom-heading:hover::after {
+  opacity: 0;
 }
 .pic-ul::after{
   content:"";
@@ -443,7 +468,10 @@ body::after {
   z-index: 1;
   opacity: .7;
   margin-left: 27.3%;
-  margin-top: -24.9%;
+  margin-top: -25.7%;
+}
+.pic-ul:hover::after {
+  opacity: 0;
 }
 .bottom-bar::before {
   content: "";
@@ -454,21 +482,26 @@ body::after {
   background-color: #2474BB;
   z-index: 1;
   opacity: .7;
-  margin-left: 71.9%;
-  margin-top: -24.6%;
+  margin-left: 70.9%;
+  margin-top: -25.35%;
+}
+.bottom-bar:hover::before {
+  opacity: 0;
 }
 .footer {
   background-color:#0D3352;
-  width: 120%;
+  width: 102.8%;
   margin-left: -3.2%;
   height: 97px;
-  margin-top: -.28%;
+  margin-top: -.4%;
   max-width: 1302px;
+  padding-top:1.2%;
 }
 .left-bottom-bar {
   list-style-type: none;
   display: inline;
   color: white;
+  margin-left: 7.5%;
 }
 .items-bottom-left {
   display: inline-block;
@@ -476,16 +509,20 @@ body::after {
 }
 .iron-yard-cr {
   position: absolute;
-  margin-top:-2.6%;
+  margin-top:-2.8%;
+  margin-left: 0.1%;
   font-family: "Open Sans";
   color:#8A9BA8;
   font-size: 12px;
+  word-spacing: 4px;
 }
 .right-bottom-bar {
   display: inline;
   float: right;
-  margin-top:2.2%;
+  margin-top:2%;
+  margin-right: 13.1%;
   color: white;
+  word-spacing: 2px;
 }
 .items-bottom-right {
   display: inline-block;
@@ -494,7 +531,9 @@ body::after {
   font-size: 12px;
 }
 .pic-ul {
-  margin-left: -6.4%;
+  margin-left: -2.2%;
+  margin-top:-1%
+
 
 }
 .whole-page {
